@@ -1,0 +1,29 @@
+.logo {
+    height: 35px;
+    margin-left: 35px;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.section-container {
+    margin-top: 20px;
+}
+
+
+.fa-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+        padding-right: 50px;
+    }
+}
